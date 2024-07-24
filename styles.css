@@ -6,11 +6,11 @@
 p{
 	font-size:20px;
 }
-p::after{
+#container::after{
 	content:"After Element";
 	color:red;
 }
-p::before{
+#container::before{
 	content:"Before Element";
 	color:red;
 }
